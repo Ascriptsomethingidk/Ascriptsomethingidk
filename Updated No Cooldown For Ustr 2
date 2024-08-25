@@ -1,0 +1,1059 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "No Cooldown Script For Ustr 2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local CreditTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+
+})
+CreditTab:AddButton({
+	Name = "By Silly Cat!",
+	Callback = function()
+      		print("Nothing Why you pressed it by silly cat btw")
+  	end    
+
+})
+local AllianceTab = Window:MakeTab({
+	Name = "Alliance Morphs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+AllianceTab:AddButton({
+	Name = "Uttv No Cooldown",
+	Callback = function()
+      		while true do
+              wait(0.1)
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["-_-"].Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame[":3"].Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.AbsorbEnergy.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ActivateHeadLasers.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ActivateSword.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CoreBlast.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CoreProjectile.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Damaged.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.DetachHead.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dispear.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Laser.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LeftFlameScreen.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LeftTVShatter.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.MainTvShatter.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.NowhereToRun.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Overconfident.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Rage.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RedScreen.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RedScreen2.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RedScreenFly.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RightBlueScreen.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RightTVShatter.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SwordSwing1.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SwordSwing2.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TenOutOfTen.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TenOutOfTenn.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.urkiddingme.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.uwu.Visible = true
+        end
+  	end    
+})
+
+AllianceTab:AddButton({
+	Name = "Utcm No Cooldown",
+	Callback = function()
+            while true do
+              wait(0.1)
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.AcidShoot.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.AcidShootHigh.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.AcidShootLow.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Block.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ByeByeLens.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CannonFire.Visible = true
+ 	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CannonNewShoot.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Cannons.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CookGman.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Core Blast"].Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Damaged.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.EquipBlaster.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.EquipCannons.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.EquipCannonsNew.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.EquipHammer.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.EquipShield.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ForPlunger.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.GetClaw.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Grabpara.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.GravityPull.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.GravitySlam.Visible = tru
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.HamCombo.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Hold.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Look Around"].Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LoseAcid.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LoseArm.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LoseBlaster.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LoseCamera.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LowShot.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.MidShot.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.NewLens.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.NuhUh.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch2.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PunchSelf.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Saw1.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Saw2.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SawSlice.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ShieldOverhead.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Short Core Blast"].Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Slam.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.StealCannon.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stomp.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Swing.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tackle.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsL.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsR.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Unconscious.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Upgrade.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.YeetOrb.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.execution.Visible = true
+	          game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.execution2.Visible = true
+        end
+  	end    
+})
+
+AllianceTab:AddButton({
+	Name = "Utsm No Cooldown",
+	Callback = function()
+		while true do
+			wait(0.1)
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["360Spin"].Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Break2.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BurstShot.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Damaged.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.DoubleShot.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Blasters"].Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.HeavyDamage.Visible = tru
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.JetpackKick.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.KickOff.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Laser.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Look Around"].Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LowShot.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song2"].Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song3"].Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RapidFire.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Screech.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Spin.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Supercharge.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Taunt.Visible = true
+			game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Upgrade.Visible = true
+		end
+  	end    
+})
+
+AllianceTab:AddButton({
+	Name = "Titan Tvman No Cooldown",
+	Callback = function()
+    while true do
+        wait(0.1) 
+    game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Block.Visible = true
+    game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BrokenMainSpeaker.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BrokenSpeaker.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BrokenSpeaker2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ClawsBreak.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CloseStab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dive.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flash.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Grapple.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.HeliBladesBreak.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Hold.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LongLStab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LongRStab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Look Around"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ShadowEscape.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SoundBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SpeedUp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stomp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TVShatter.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TitanCombo.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Upgrade.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.bruhface.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.catface.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.uwuface.Visible = true
+       end
+  	end    
+})
+
+AllianceTab:AddButton({
+	Name = "Titan Cameraman No Cooldown",
+	Callback = function()
+      		while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Arm Crush"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Arm Destruction"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Attacked.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Core Blast"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Hold.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Look Around"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Low Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shield.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shrug.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SpeedUp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stomp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TitanCombo.Visible = true
+       end
+  	end    
+})
+
+AllianceTab:AddButton({
+	Name = "Titan Speakerman No Cooldown",
+	Callback = function()
+      		while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CloseRangedShot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["High Shoot"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Hold.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.JetpackKick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.KickOff.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Laser.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Laser2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Look Around"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Low Shoot"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Rapid Blasts"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Screech.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shrug.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Slap.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SoundBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Speaker Destroyed"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SpeedUp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stomp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TitanCombo.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Wave.Visible = true
+       end
+  	end    
+})
+
+AllianceTab:AddButton({
+    Name = "Large Tvman With Speakers No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Crouch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dispear.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Fallback.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Injury.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.JustaScratch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ShadowSteal.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.UltraScreenFlash.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Large Tvman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Crouch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dispear.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Fallback.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Injury.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.JustaScratch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PulloutTV.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ShadowSteal.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.UltraScreenFlash.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Large Speakerman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Barrage.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Destruct"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Hold.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shank.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shrug.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SoundBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stomp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Large Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Choke.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Punch"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Destruct"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kneel.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Toilet Shoes"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Large Cameraman With Stun Weapon No Cooldown",
+    Callback = function()
+               while true do
+                   wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Choke.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Punch"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Destruct"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kneel.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Throw Baton"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Toilet Shoes"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Large Cameraman With Rocket Launcher No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Choke.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Punch"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Destruct"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kneel.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Toilet Shoes"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Scientist Large Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Choke.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Punch"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Destruct"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kneel.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Toilet Shoes"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Large Cameraman With Laser Gun",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Charge.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Choke.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Punch"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Destruct"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kneel.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Laser.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LaserEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = tru
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Toilet Shoes"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Shadow Tvman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BurnThem.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dispear.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.GigaSlash.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.GunEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.MindYourBusiness.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Protecc.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ReflectLasers.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Scan.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.WellDone.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Yoink.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Mini Titan Enginner Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PutCamera.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Tvman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["(;"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["-_-"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BackwardStab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dispear.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TV.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TurnoffFace.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["c:"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Speakerwoman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Clap.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Punch"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Stab"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Knives"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Head Tap"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.KBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LeftBatEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LeftBatSmack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Nuh Uh"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.OfferHelp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RightBatEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RightBatSmack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Roll.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Second Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Silly Walk"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SoundBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Stab Barrage"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Upgrade.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Tv Woman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Detatch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Detatchv2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ElectricalBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Hold.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.KnifeEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Pink Screen"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ShadowEscape.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TV.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.TeleportRequest.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Upgrade.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Camera Woman No Cooldown",
+    Callback = function()
+             while true do
+                 wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Aim.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.BarrageShoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LoseArm.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ReadyTurrets.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Scan.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ShootTurret.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sniper.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Upgrade.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Plunger Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dash.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.GlitchToilet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PlungeToilet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PulloutPlunger1.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PulloutPlunger2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SwingPlunger1.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SwingPlunger2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.UpgradePlunger.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Dark Speakerman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Double Stab"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PulloutPlunger1.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.PulloutPlunger2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SpekaerBlast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Stab Barrage"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Regular Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Detective Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Secret Agent Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Remote.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Scientist Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.AntiParasiteGun.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.CarryCrate.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Brown Cameraman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Speakerman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.OfferHelp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Upgraded Cameraman With Laser Gun No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Laser.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.StunGun.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Upgraded Cameraman With Railgun No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.StunGun.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Upgraded Cameraman With Stun Gun No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Equip Lens"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Flashlight.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.StunGun.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsDown.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.ThumbsUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Upgraded Speakerman With Bats No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LeftBatEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.LeftBatSmack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.OfferHelp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RightBatEquip.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.RightBatSmack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Upgraded Speakerman No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Broadcast.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Dance2.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Die.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Jetpack.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Kick.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Nod.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.OfferHelp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Punch.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Tablet.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Camera Rover No Cooldown (it doesnt even have cooldown)",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Controlled.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Explode.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Sing.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Strider Speaker No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Explode.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Ultra Soud Blast"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Strider Camera No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Explode.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Stab.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Flying Speaker No Cooldown",
+    Callback = function()
+            while true do
+                wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Explode.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song2"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Play Song3"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Run.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Ultra Soud Blast"].Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Camera Strike No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Explode.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Higher.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Lower.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SpeedUp.Visible = true
+         end
+      end
+})
+
+AllianceTab:AddButton({
+    Name = "Anti Parasite Tank No Cooldown",
+    Callback = function()
+              while true do
+                  wait(0.1)
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.AimHigh.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Explode.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Headphones.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Ram.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.Shoot.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame.SpeedUp.Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Down"].Visible = true
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.Animations.ScrollingFrame["Thumbs Up"].Visible = true
+         end
+      end
+})
+
+
+
+
+OrionLib:Init()
